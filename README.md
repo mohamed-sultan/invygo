@@ -2,13 +2,9 @@
 
 ## 🎥 Demo Video
 
-[📥 Download Demo Video](docs/Simulator.mp4) (92 MB)
+[![Demo Video](https://img.youtube.com/vi/4wamXj3_cr0/maxresdefault.jpg)](https://www.youtube.com/shorts/4wamXj3_cr0)
 
-> **Note**: GitHub markdown doesn't support inline video playback.
->
-> - Click the link above to download and view the demo video
-> - Or upload to YouTube/Vimeo and replace this section with: `[![Demo Video](thumbnail-url)](video-url)`
-> - For inline display, consider converting to GIF (note: 92MB video may result in large GIF)
+**Alternative**: [📥 Download Demo Video](docs/Simulator.mp4) (92 MB)
 
 A React Native application for browsing and viewing car listings with a modern, responsive design and comprehensive theming system.
 
@@ -75,17 +71,12 @@ const { colors, isDarkMode, toggleTheme } = useTheme();
 - **withSuspense HOC** wraps all screens for lazy loading
 - Reduces initial bundle size and improves app startup time
 
-### useCallback
+### React.memo & useMemo & useCallback
 
-- **Event handlers** memoized to prevent function recreation
-- Used in `CarDetails` for `handleBuyNow` to avoid child re-renders
-- Ensures stable function references across renders
-
-```typescript
-const handleBuyNow = useCallback(async () => {
-  // Handler logic
-}, [dependencies]);
-```
+- **React.memo** - Prevents component re-renders when props haven't changed
+- **useMemo** - Memoizes expensive computations to avoid recalculation
+- **useCallback** - Memoizes event handlers to prevent function recreation
+- Applied across atoms, molecules, organisms, and page components
 
 **Performance Benefits:**
 
@@ -93,6 +84,29 @@ const handleBuyNow = useCallback(async () => {
 - Faster navigation transitions
 - Lower memory footprint
 - Smoother scrolling performance
+
+## 🔧 Development Tools
+
+### Linting & Code Quality
+
+- **ESLint** - Code linting with React Native and TypeScript rules
+- **Prettier** - Automatic code formatting
+- **Husky** - Git hooks for pre-commit validation
+- **lint-staged** - Run linters on staged files only
+
+**Pre-commit Hook:**
+
+- Automatically formats staged files with Prettier
+- Runs ESLint with auto-fix on staged files
+- Ensures code quality before commits
+
+**Commands:**
+
+```bash
+npm run lint          # Run ESLint
+npm run format        # Format all files
+npm run format:check  # Check formatting without modifying files
+```
 
 ## 📦 Packages & Dependencies
 
@@ -111,6 +125,10 @@ const handleBuyNow = useCallback(async () => {
 - **`jest`** - Test framework
 - **`typescript`** - Type safety
 - **`babel-plugin-module-resolver`** - Path aliases
+- **`eslint`** - Code linting
+- **`prettier`** - Code formatting
+- **`husky`** - Git hooks manager
+- **`lint-staged`** - Run linters on staged files
 
 ## 🧪 Testing
 
@@ -122,30 +140,6 @@ const handleBuyNow = useCallback(async () => {
 - **Pages**: 7 tests (Splash, CarsListing, CarDetails + components)
 
 **Test Coverage**: Rendering, interactions, theme integration, state management, props validation
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js >= 20
-- React Native development environment
-
-### Installation
-
-```bash
-npm install
-cd ios && pod install && cd ..  # iOS only
-npm start
-npm run ios      # or npm run android
-```
-
-### Running Tests
-
-```bash
-npm test
-npm test -- --watch
-npm test -- src/components/atoms/Button.test.tsx
-```
 
 ## 🎯 System Design
 
