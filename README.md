@@ -2,9 +2,8 @@
 
 ## 🎥 Demo Video
 
-![Demo GIF](docs/output.gif)
+<img src="docs/output.gif" alt="Demo GIF" height="300" />
 
-**Alternative**: [📥 Download Demo Video](docs/Simulator.mp4) (92 MB) | [Watch on YouTube](https://www.youtube.com/shorts/4wamXj3_cr0)
 
 ## 🏗️ Architecture
 
