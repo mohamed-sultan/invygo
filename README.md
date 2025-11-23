@@ -2,7 +2,9 @@
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/4wamXj3_cr0/maxresdefault.jpg)](https://www.youtube.com/shorts/4wamXj3_cr0)
+![Demo GIF](docs/output.gif)
+
+**Alternative**: [📥 Download Demo Video](docs/Simulator.mp4) (92 MB) | [Watch on YouTube](https://www.youtube.com/shorts/4wamXj3_cr0)
 
 ## 🏗️ Architecture
 
