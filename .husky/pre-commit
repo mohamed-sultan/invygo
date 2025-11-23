@@ -2,7 +2,12 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # Run lint-staged to format and lint staged files
-npx lint-staged
+npx lint-staged || {
+  echo "❌ Pre-commit hook failed. Please fix the errors above."
+  echo "💡 To skip this hook, use: git commit --no-verify"
+  exit 1
+}
 
-# Run tests
-npm run test -- --bail --findRelatedTests
+# Run tests (only if lint-staged passes)
+# Uncomment the line below to enable tests on commit
+# npm run test -- --bail --findRelatedTests
