@@ -4,10 +4,6 @@
 
 [![Demo Video](https://img.youtube.com/vi/4wamXj3_cr0/maxresdefault.jpg)](https://www.youtube.com/shorts/4wamXj3_cr0)
 
-**Alternative**: [📥 Download Demo Video](docs/Simulator.mp4) (92 MB)
-
-A React Native application for browsing and viewing car listings with a modern, responsive design and comprehensive theming system.
-
 ## 🏗️ Architecture
 
 Modular, component-based architecture with clear separation of concerns:
