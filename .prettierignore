@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+Pods/
+
+# Build outputs
+build/
+dist/
+*.log
+
+# Generated files
+coverage/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# React Native
+android/
+ios/
+.expo/
+
+# JSON files (animations, configs)
+*.json
+!package.json
+!tsconfig.json
+!jest.config.js
+
+# Other
+*.lock
+package-lock.json
+yarn.lock
+docs/
+

@@ -1,0 +1,29 @@
+{
+  "common": {
+    "month": "/month",
+    "new": "NEW",
+    "featured": "Featured",
+    "readMore": "Read more...",
+    "buyNow": "Buy Now"
+  },
+  "carsListing": {
+    "title": "Cars Listing",
+    "featured": "Featured",
+    "recommended": "Recommended",
+    "noMoreCars": "No more cars to load"
+  },
+  "carDetails": {
+    "carNotFound": "Car not found",
+    "readMore": "Read more...",
+    "autopilot": "Autopilot",
+    "camera360": "360° Camera",
+    "contactDealer": "Contact Dealer",
+    "carDetails": "Car details (Model, year...)",
+    "location": "Dehli, India",
+    "emiLoan": "EMI/Loan",
+    "buyNow": "Buy Now",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam nam eu nulla a. Vestibulum aliquet facilisi interdum nibh blandit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+  }
+}
+
+

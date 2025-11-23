@@ -1,0 +1,891 @@
+{
+  "pageProps": {
+    "initialVehicles": [
+      {
+        "_id": "1",
+        "brandName": "Toyota",
+        "carName": "Camry",
+        "price": 2500,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2021,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png"
+        ],
+        "colors": [
+          "blue",
+          "gray",
+          "white"
+        ]
+      },
+      {
+        "_id": "2",
+        "brandName": "Honda",
+        "carName": "Accord",
+        "price": 2800,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png"
+        ],
+        "colors": [
+          "red",
+          "yellow",
+          "blue"
+        ]
+      },
+      {
+        "_id": "3",
+        "brandName": "BMW",
+        "carName": "3 Series",
+        "price": 4500,
+        "imageUrl": "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png"
+        ],
+        "colors": [
+          "yellow",
+          "silver",
+          "gray",
+          "purple",
+          "white"
+        ]
+      },
+      {
+        "_id": "4",
+        "brandName": "Mercedes-Benz",
+        "carName": "C-Class",
+        "price": 4800,
+        "imageUrl": "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png"
+        ],
+        "colors": [
+          "purple",
+          "orange",
+          "silver",
+          "green",
+          "blue"
+        ]
+      },
+      {
+        "_id": "5",
+        "brandName": "Audi",
+        "carName": "A4",
+        "price": 4200,
+        "imageUrl": "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "green",
+          "blue",
+          "silver"
+        ]
+      },
+      {
+        "_id": "6",
+        "brandName": "Ford",
+        "carName": "F-150",
+        "price": 3500,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2021,
+        "currency": "AED",
+        "condition": "USED",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg"
+        ],
+        "colors": [
+          "yellow",
+          "white",
+          "silver"
+        ]
+      },
+      {
+        "_id": "7",
+        "brandName": "Nissan",
+        "carName": "Altima",
+        "price": 2200,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "silver",
+          "red",
+          "black"
+        ]
+      },
+      {
+        "_id": "8",
+        "brandName": "Chevrolet",
+        "carName": "Tahoe",
+        "price": 5200,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg"
+        ],
+        "colors": [
+          "blue",
+          "red",
+          "yellow",
+          "white",
+          "green"
+        ]
+      },
+      {
+        "_id": "9",
+        "brandName": "Hyundai",
+        "carName": "Elantra",
+        "price": 2000,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg"
+        ],
+        "colors": [
+          "white",
+          "black",
+          "purple",
+          "green"
+        ]
+      },
+      {
+        "_id": "10",
+        "brandName": "Kia",
+        "carName": "Sorento",
+        "price": 3200,
+        "imageUrl": "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg"
+        ],
+        "colors": [
+          "black",
+          "green",
+          "gray",
+          "blue",
+          "red"
+        ]
+      },
+      {
+        "_id": "11",
+        "brandName": "Mazda",
+        "carName": "CX-5",
+        "price": 2900,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg"
+        ],
+        "colors": [
+          "gray",
+          "red",
+          "orange"
+        ]
+      },
+      {
+        "_id": "12",
+        "brandName": "Volkswagen",
+        "carName": "Jetta",
+        "price": 2400,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2021,
+        "currency": "AED",
+        "condition": "USED",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg"
+        ],
+        "colors": [
+          "white",
+          "gray",
+          "red",
+          "purple",
+          "blue"
+        ]
+      },
+      {
+        "_id": "13",
+        "brandName": "Lexus",
+        "carName": "RX",
+        "price": 5500,
+        "imageUrl": "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg"
+        ],
+        "colors": [
+          "red",
+          "gray",
+          "blue",
+          "yellow",
+          "orange"
+        ]
+      },
+      {
+        "_id": "14",
+        "brandName": "Subaru",
+        "carName": "Outback",
+        "price": 3100,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg"
+        ],
+        "colors": [
+          "yellow",
+          "red",
+          "black",
+          "blue",
+          "white"
+        ]
+      },
+      {
+        "_id": "15",
+        "brandName": "Jeep",
+        "carName": "Grand Cherokee",
+        "price": 3800,
+        "imageUrl": "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png"
+        ],
+        "colors": [
+          "red",
+          "orange",
+          "gray",
+          "purple",
+          "white"
+        ]
+      },
+      {
+        "_id": "16",
+        "brandName": "Tesla",
+        "carName": "Model 3",
+        "price": 5000,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg"
+        ],
+        "colors": [
+          "red",
+          "blue",
+          "green",
+          "black"
+        ]
+      },
+      {
+        "_id": "17",
+        "brandName": "Porsche",
+        "carName": "Cayenne",
+        "price": 7500,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png"
+        ],
+        "colors": [
+          "red",
+          "yellow",
+          "blue",
+          "green"
+        ]
+      },
+      {
+        "_id": "18",
+        "brandName": "Toyota",
+        "carName": "RAV4",
+        "price": 2700,
+        "imageUrl": "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg"
+        ],
+        "colors": [
+          "red",
+          "blue",
+          "purple",
+          "silver"
+        ]
+      },
+      {
+        "_id": "19",
+        "brandName": "Honda",
+        "carName": "CR-V",
+        "price": 2600,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg"
+        ],
+        "colors": [
+          "yellow",
+          "red",
+          "blue"
+        ]
+      },
+      {
+        "_id": "20",
+        "brandName": "Ford",
+        "carName": "Mustang",
+        "price": 4000,
+        "imageUrl": "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg"
+        ],
+        "colors": [
+          "green",
+          "white",
+          "orange",
+          "red",
+          "blue"
+        ]
+      },
+      {
+        "_id": "21",
+        "brandName": "Nissan",
+        "carName": "Rogue",
+        "price": 2500,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "green",
+          "orange",
+          "black",
+          "blue"
+        ]
+      },
+      {
+        "_id": "22",
+        "brandName": "Chevrolet",
+        "carName": "Silverado",
+        "price": 3600,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2021,
+        "currency": "AED",
+        "condition": "USED",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "gray",
+          "black",
+          "blue"
+        ]
+      },
+      {
+        "_id": "23",
+        "brandName": "Audi",
+        "carName": "Q5",
+        "price": 4400,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png"
+        ],
+        "colors": [
+          "silver",
+          "purple",
+          "red",
+          "orange",
+          "blue"
+        ]
+      },
+      {
+        "_id": "24",
+        "brandName": "BMW",
+        "carName": "X5",
+        "price": 6000,
+        "imageUrl": "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "black",
+          "silver",
+          "blue",
+          "white",
+          "orange"
+        ]
+      },
+      {
+        "_id": "25",
+        "brandName": "Mercedes-Benz",
+        "carName": "GLE",
+        "price": 5800,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": true,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg"
+        ],
+        "colors": [
+          "red",
+          "blue",
+          "orange",
+          "green",
+          "black"
+        ]
+      },
+      {
+        "_id": "26",
+        "brandName": "Volvo",
+        "carName": "XC60",
+        "price": 4100,
+        "imageUrl": "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg"
+        ],
+        "colors": [
+          "gray",
+          "purple",
+          "green",
+          "orange"
+        ]
+      },
+      {
+        "_id": "27",
+        "brandName": "Infiniti",
+        "carName": "QX50",
+        "price": 3900,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "black",
+          "white",
+          "silver"
+        ]
+      },
+      {
+        "_id": "28",
+        "brandName": "Acura",
+        "carName": "RDX",
+        "price": 3700,
+        "imageUrl": "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg"
+        ],
+        "colors": [
+          "red",
+          "blue",
+          "orange"
+        ]
+      },
+      {
+        "_id": "29",
+        "brandName": "Genesis",
+        "carName": "GV70",
+        "price": 4600,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png"
+        ],
+        "colors": [
+          "black",
+          "green",
+          "blue",
+          "gray",
+          "purple"
+        ]
+      },
+      {
+        "_id": "30",
+        "brandName": "Lincoln",
+        "carName": "Navigator",
+        "price": 6500,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg"
+        ],
+        "colors": [
+          "silver",
+          "gray",
+          "purple",
+          "black",
+          "orange"
+        ]
+      },
+      {
+        "_id": "31",
+        "brandName": "Cadillac",
+        "carName": "XT5",
+        "price": 4300,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "green",
+          "red",
+          "orange",
+          "purple",
+          "silver"
+        ]
+      },
+      {
+        "_id": "32",
+        "brandName": "Buick",
+        "carName": "Enclave",
+        "price": 3400,
+        "imageUrl": "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg"
+        ],
+        "colors": [
+          "white",
+          "gray",
+          "yellow",
+          "blue",
+          "purple"
+        ]
+      },
+      {
+        "_id": "33",
+        "brandName": "GMC",
+        "carName": "Yukon",
+        "price": 5400,
+        "imageUrl": "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "green",
+          "purple",
+          "blue",
+          "yellow"
+        ]
+      },
+      {
+        "_id": "34",
+        "brandName": "Ram",
+        "carName": "1500",
+        "price": 3300,
+        "imageUrl": "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+        "manufacturingYear": 2021,
+        "currency": "AED",
+        "condition": "USED",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F84137f92-5a3f-4d48-96f3-0dd12f31f018_Accent%202025%20gray.jpg",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "purple",
+          "black",
+          "green"
+        ]
+      },
+      {
+        "_id": "35",
+        "brandName": "Toyota",
+        "carName": "Highlander",
+        "price": 3000,
+        "imageUrl": "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F294df053-b811-48e1-b5fa-f6861f5c498b_Untitled-1.png",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "blue",
+          "silver",
+          "red",
+          "white"
+        ]
+      },
+      {
+        "_id": "36",
+        "brandName": "Honda",
+        "carName": "Pilot",
+        "price": 2800,
+        "imageUrl": "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "white",
+          "green",
+          "orange",
+          "black",
+          "blue"
+        ]
+      },
+      {
+        "_id": "37",
+        "brandName": "Mazda",
+        "carName": "CX-9",
+        "price": 3200,
+        "imageUrl": "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F15abb894-318c-4945-a89e-953a75a8a726_Accent%202025%20white.jpeg",
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images%2F2257aa9b-743f-45de-8fb5-2593741aac73_Untitled-1.jpg"
+        ],
+        "colors": [
+          "yellow",
+          "silver",
+          "purple",
+          "white"
+        ]
+      },
+      {
+        "_id": "38",
+        "brandName": "Subaru",
+        "carName": "Ascent",
+        "price": 2900,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg"
+        ],
+        "colors": [
+          "white",
+          "blue",
+          "green"
+        ]
+      },
+      {
+        "_id": "39",
+        "brandName": "Nissan",
+        "carName": "Pathfinder",
+        "price": 2700,
+        "imageUrl": "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+        "manufacturingYear": 2022,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2Fd99487d6-d551-47d8-8609-b8d043211b40_Untitled-1.jpg",
+          "https://assets.invygo.com/car-images/2023-mitsubishi-attrage--white-85e399f9-5499-4768-8061-8e516da0f2d0.jpg",
+          "https://assets.invygo.com/car-images%2Fb86f5b60-a7a9-4fc6-a11e-17a36b0046e0_208%20red.jpg"
+        ],
+        "colors": [
+          "gray",
+          "red",
+          "yellow",
+          "silver",
+          "orange"
+        ]
+      },
+      {
+        "_id": "40",
+        "brandName": "Kia",
+        "carName": "Telluride",
+        "price": 3500,
+        "imageUrl": "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+        "manufacturingYear": 2023,
+        "currency": "AED",
+        "condition": "NEW",
+        "isHighlighted": false,
+        "images": [
+          "https://assets.invygo.com/car-images%2F3e0a3e2c-c849-41b8-83f2-6bbae55deedb_Untitled-22.png",
+          "https://assets.invygo.com/car-images/2023-toyota-yaris-standard-white-f719b7a0-c0f5-40e1-95f9-d19d8590be98.jpg",
+          "https://assets.invygo.com/car-images%2F641b45c5-17bd-470c-b1c2-c5c61b7863ad_ciaz%20silver.png"
+        ],
+        "colors": [
+          "white",
+          "red",
+          "black"
+        ]
+      }
+    ]
+  }
+}
